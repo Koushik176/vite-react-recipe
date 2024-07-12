@@ -20,7 +20,7 @@ body {
   background-color: hsl(330, 100%, 98%);
   display: flex;
   place-items: center;
-  min-width: 320px;
+  /* min-width: 375px; */
   min-height: 100vh;
 }
 
@@ -29,13 +29,12 @@ body {
   background-color: white;
   display: flex;
   flex-direction: column;
-  justify-content: left;
-  width: 40rem;
+  width: 90%;
   border-radius: 1rem;
 }
 
 img {
-  width: 40rem;
+  width: 99%;
 }
 
 h1 {

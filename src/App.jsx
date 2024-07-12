@@ -1,31 +1,21 @@
 import "./App.css";
-import omlegeImg from "./assets/image-omelette.jpeg";
+import omeletteImg from "./assets/image-omelette.jpeg";
+import Attribution from "./components/Attribution";
+import Nutrition from "./components/Nutrition";
+import Preparation from "./components/Preparation";
 
 function App() {
   return (
     <main>
       <div className="main-div">
-        <img src={omlegeImg} alt="recipe image" />
+        <img src={omeletteImg} alt="recipe image" />
         <h1>Simple Omelette Recipe</h1>
         <p>
           An easy and quick dish, perfect for any meal. This classic omelette
           combines beaten eggs cooked to perfection, optionally filled with your
           choice of cheese, vegetables, or meats.
         </p>
-        <section className="main-section-1">
-          <h3>Preparation time</h3>
-          <ul>
-            <li>
-              <span>Total:</span> Approximately 10 minutes
-            </li>
-            <li>
-              <span>Preparation:</span> 5 minutes
-            </li>
-            <li>
-              <span>Cooking:</span> 5 minutes
-            </li>
-          </ul>
-        </section>
+        <Preparation />
         <section className="main-section-2">
           <h2>Ingredients</h2>
           <ul>
@@ -78,46 +68,9 @@ function App() {
           </ul>
         </section>
         <hr />
-        <section className="main-section-4">
-          <h2>Nutrition</h2>
-          <p>
-            The table below shows nutritional values per serving without the
-            additional fillings.
-          </p>
-        </section>
-        <table className="table">
-          <tr>
-            <td>Calories</td>
-            <td>277kcal</td>
-          </tr>
-          <tr>
-            <td>Carbs</td>
-            <td>0g</td>
-          </tr>
-          <tr>
-            <td>Protein</td>
-            <td>20g</td>
-          </tr>
-          <tr>
-            <td>Fat</td>
-            <td>22g</td>
-          </tr>
-        </table>
+        <Nutrition />
       </div>
-      <div className="attribution">
-        Challenge by{" "}
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
-          Frontend Mentor
-        </a>
-        . Coded by{" "}
-        <a
-          href="https://www.frontendmentor.io/profile/Koushik176"
-          target="_blank"
-        >
-          Koushik
-        </a>
-        .
-      </div>
+      <Attribution />
     </main>
   );
 }
