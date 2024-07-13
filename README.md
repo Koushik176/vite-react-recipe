@@ -15,11 +15,10 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 The challenge is to build out this recipe page and get it looking as close to the design as possible.
 
 ![Webview Design preview for the Recipe page coding challenge](./design/desktop-preview.jpg)
-![Mobile view Design preview for the Recipe page coding challenge](./design/mobile-design.jpg)
 
 ### Screenshot
 
-![Screenshot of webview](./screenshot/Screenshot-react-recipe-webview.png.jpg)
+![Screenshot of webview](./screenshot/Screenshot-react-recipe-webview.png)
 ![Screenshot of mobile view](./screenshot/Screenshot-react-recipe-mobile-view.png)
 
 ### Links
