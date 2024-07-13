@@ -32,9 +32,9 @@ The challenge is to build out this recipe page and get it looking as close to th
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
+- [vite](https://vitejs.dev/) - Frontend Tool
 - [React](https://reactjs.org/) - JS library
 
 ## Author
 
 - Frontend Mentor - [@Koushik176](https://www.frontendmentor.io/profile/Koushik176)
-
