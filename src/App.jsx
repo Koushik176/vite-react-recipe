@@ -8,7 +8,9 @@ function App() {
   return (
     <main>
       <div className="main-div">
-        <img src={omeletteImg} alt="recipe image" />
+        <div>
+          <img src={omeletteImg} alt="recipe image" />
+        </div>
         <h1>Simple Omelette Recipe</h1>
         <p>
           An easy and quick dish, perfect for any meal. This classic omelette

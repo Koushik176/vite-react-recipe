@@ -29,12 +29,12 @@ body {
   background-color: white;
   display: flex;
   flex-direction: column;
-  width: 90%;
+  max-width: 100%;
   border-radius: 1rem;
 }
 
 img {
-  width: 99%;
+  width: 100%;
 }
 
 h1 {
@@ -42,6 +42,13 @@ h1 {
   font-family: "Young Serif", serif;
   font-size: 2.5rem;
   margin: 1rem 0;
+}
+
+h2 {
+  font-family: "Young Serif", serif;
+  font-size: 1.7rem;
+  color: hsl(14, 45%, 36%);
+  margin: 0;
 }
 
 p {
@@ -54,6 +61,7 @@ p {
   padding: 0 1rem;
   background-color: hsl(330, 100%, 98%);
   color: black;
+  margin-bottom: 1rem;
 }
 
 .main-section-1 h3 {
@@ -66,14 +74,6 @@ p {
 
 .main-section-1 span {
   font-weight: bold;
-}
-
-.main-section-2 h2 {
-  font-family: "Young Serif", serif;
-  font-size: 1.7rem;
-  color: hsl(14, 45%, 36%);
-  margin-top: 1rem;
-  margin-bottom: 0;
 }
 
 .main-section-2 ul {
@@ -101,13 +101,6 @@ hr {
   height: 2px;
   background: rgba(51, 51, 51, 0.1);
   margin: 1rem 0.5rem;
-}
-
-.main-section-3 h2 {
-  font-family: "Young Serif", serif;
-  font-size: 1.7rem;
-  color: hsl(14, 45%, 36%);
-  margin: 0;
 }
 
 .main-section-3 ul {
@@ -138,13 +131,6 @@ hr {
   font-weight: bold;
 }
 
-.main-section-4 h2 {
-  font-family: "Young Serif", serif;
-  font-size: 1.7rem;
-  color: hsl(14, 45%, 36%);
-  margin: 0;
-}
-
 .main-section-4 p {
   color: black;
   font-size: 16px;
@@ -154,7 +140,7 @@ hr {
 
 .table td {
   border-bottom: 1px solid rgba(51, 51, 51, 0.1);
-  padding: 0.5rem 0;
+  padding: 0.5rem 2rem;
 }
 
 .table td:nth-child(even) {
@@ -169,4 +155,13 @@ hr {
 
 .attribution a {
   color: #3e52a3;
+}
+
+@media (min-width: 40rem) {
+  main {
+    margin: 6rem 0;
+  }
+  .main-div {
+    width: 40rem;
+  }
 }
